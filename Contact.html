@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="ulf-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta Name="viewport" content="width-device-device, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#Header").load("header.html"); // loads the content of header.html in header div
+          $("#Footer").load("footer.html"); // loads the content of footer.html in footer div
+        });
+    </script>
+
+  </head>
+  
+  <body>
+    <header>
+      
+        <div id="Header"></div>
+    
+    </header>
+
+    <main>
+<h1 class="contacthead">
+    Contact Us
+</h1>
+
+<h3 class="contacthead1">For all enquiries, please contact us</h3>
+    <div class="container">
+        <form action="/action_page.php">
+    <div>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname">
+    </div>
+    <br>
+    <div>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+    </div>
+    <br>
+    <div>
+        <textarea class ="textarea" placeholder="Enter a message" cols="38" rows="16"></textarea><br>
+    </div>
+    <br>
+        <input type="submit" value="Submit">
+    </form> 
+    </div>
+     
+    <br>
+    <br>
+
+    </main>
+
+
+    <footer>
+        <div id= "Footer"></div>
+       
+      
+    </footer>
+  
+    
+  </body>
+</html>

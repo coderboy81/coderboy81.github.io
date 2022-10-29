@@ -1,0 +1,618 @@
+
+/*-----------------------------------------------Home page------------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+}
+/* start headerbar*/
+.navbarheader{
+    display: flex;
+    list-style: none;
+    background-color:#191f33;
+    margin: auto;
+    align-items: center;
+}
+
+.items {
+    padding: 30px;
+    }
+
+.items a {
+    color: white;
+    text-decoration: none; 
+    font-size: 15px;
+    letter-spacing: 5px;
+
+}
+
+.items a:hover{
+    color:#ed196f;
+}
+/*-----------------------Dropdown Menu----------------*/
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #191f33;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+.dropdown a{
+    display: block;
+    padding: 12px;
+    margin: 5px;
+    text-align: left;
+
+}
+.dropdown a:hover{ background-color: #ed196f;
+color: white;
+}
+
+.items:hover .dropdown{
+    display: block;
+}
+
+/*-----------------------Dropdown Menu----------------*/
+
+/*end headerbar*/
+
+/* start footerbar*/
+.navbarfooter{ 
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    background-color: #191f33;
+}
+
+
+.items1 {
+    padding: 30px;
+}
+.hello {
+    display: flex;
+    margin-left: 110ex;
+    
+}
+.items1 a { 
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.items1 a:hover{
+    color: #ed196f;
+}
+.copyright {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+/*end footerbar*/
+
+/*start herobanner*/
+.banner{
+    background: url(HeroBanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flow-root;
+    letter-spacing: 3px;
+}
+
+.content{
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #ed196f;
+    opacity: 80%;
+}
+/*intro text start*/
+.intro{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/*intro text end*/
+
+/*test TESTIMONIAL start*/
+table {
+    background-color: #ed196f;
+    opacity: 90%;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 50%;
+}
+.testimonial img{
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial td{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}  
+/*test TESTIMONIAL end*/
+
+/*test partners start*/
+.Partlogo img{
+    width: 390px;
+    height: 200px;
+    margin: 0px;
+    padding: 15px;
+    }
+    /*test partners end*/
+
+/*-----------------------------------------------About page------------------------------------*/
+
+.aboutusimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+}
+
+.abouttext {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.centerH1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.styecab{
+    text-transform: uppercase;
+    background-color: #ed196f;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*-----------------------------------------------Policy page------------------------------------*/
+body{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.Backgroudcol{
+    background-color: #ed196f;
+    color: white;
+}
+
+.policybox{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    padding: 10px;
+    
+}
+/*-----------------------------------------------Contact page------------------------------------*/
+
+.container{
+    background-color: #ed196f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 30px;
+    color: white;
+    height: 550px;
+    width: 300px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    padding: 10px;
+    
+}
+
+.container label{ 
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.contacthead{
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+}
+.contacthead1{
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.container input{
+width: 290px;
+height: 20px;
+}
+/*-----------------------------------------------sitemap page------------------------------------*/
+
+.page1 a{
+display: flex;
+text-decoration: none;
+font-size: 20px;
+background-color: #ed196f;
+color: white;
+padding: 10px;
+}
+
+.page1{
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.Programmes1 a {
+text-decoration: none;
+font-size: 20px;
+background-color: #ed196f;
+color: white;
+padding: 10px;
+}
+
+.Programmes1 li{
+    padding: 25px;
+    margin: 30x;
+}
+
+.Programmes1{
+    margin-left: 20px;
+}
+
+/*-----------------------------------------------Java page------------------------------------*/
+
+.Picjava img {
+    position: absolute;
+    right: 500px;
+    width: 300px;
+    height: 300px;
+    top: 120px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    padding: 10px;
+}
+.Picjava{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.span1{
+    background-color: #ed196f;
+    color: white;
+    letter-spacing: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.javapara {
+    font-size: 20px;
+}
+
+.joinbutton {
+    background-color: #ed196f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.leftbutton {
+    background-color: #ed196f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.centerbutton {
+    position: absolute;
+    left: 850px;
+    background-color: #ed196f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rightbutton {
+    position: absolute;
+    left: 1700px;
+    background-color: #ed196f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Fees p{
+font-size: 20px;
+}
+.price{
+    background-color: #ed196f;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Fees{
+    text-align: center;
+}
+.criteria{
+    font-size: 20px;
+    padding: 10px;
+}
+/*-----------------------------------------------.Net page------------------------------------*/
+.Picnet img {
+    position: absolute;
+    right:500px;
+    width: 300px;
+    height: 300px;
+    top: 120px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    padding: 10px;
+}
+.Picnet{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 30px;
+} 
+.span2{
+    background-color: #ed196f;
+    color: white;
+    letter-spacing: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.netpara {
+    font-size: 20px;
+}
+
+.joinbutton1 {
+    background-color: #ed196f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+    .leftbutton1 {
+        background-color: #ed196f;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .centerbutton1 {
+        position: absolute;
+        left: 850px;
+        background-color: #ed196f;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .rightbutton1 {
+        position: absolute;
+        left: 1700px;
+        background-color: #ed196f;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+    }
+    /*-----------------------------------------------Schedule page------------------------------------*/
+
+    .schedulehead{
+        font-size: 30px;
+        text-align: center;
+        background-color: #ed196f;
+        color: white;
+        letter-spacing: 3px;
+        padding: 10px;
+    }
+    .scheduletable p{
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .scheduletable h3{
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    .highlight {
+        background-color: #ed196f;
+        color: white;
+        padding: 10px;
+    }
+
+    .schedulebanner img{
+    
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding : 10px;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    }
+/*-----------------------------------------------Registration page------------------------------------*/
+
+.regcontainer h1{
+    text-align: center;
+}
+.regcontainer form{
+    background-color: #ed196f;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    
+}
+.regcontainer{
+    margin: auto;
+    width: 25%;
+    
+}
+.regcontainer label{
+    color: #191f33;
+    
+}
+.regcontainer input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 8px 0;
+}
+.regcontainer textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.regcontainer select{
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 8px 0;
+}
+.regcontainer input[type=submit]{
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+.regbreadcrumb a{
+width: 100%;
+display: inline;
+background-color: #ed196f;
+text-decoration: none;
+color: white;
+padding: 5px;
+border-radius: 5px;
+}
+/*-----------------------------------------------Thanks You page------------------------------------*/
+.thankscontainer{
+    background: url(back_to_sch.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thankscontainer{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+.thankscontainer hr {
+width: 50%;
+}
+/*-----------------------------------------------Courese Listing page------------------------------------*/
+
+.Ava_courese img {
+    width:50%;
+    height:50%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.Ava_courese h1 {
+    text-align: center;
+    
+}
+.acc_container h3{
+    background-color: #ed196f;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.accordionpara p {
+   font-size: 20px;
+}
+.accordionpara img{
+   float: left;
+   width: 150px;
+   height: 150px;
+   padding: 5px;
+   border: solid ;
+   margin-right: 15px;
+   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+}
+
+.accordionpara li{
+    font-size: 15px;
+}
+
+.enroll_main {
+background-color: #ed196f;
+list-style-type: none;
+font-size: 20px;
+border-radius: 10px;
+padding: 10px;
+text-decoration: none;
+color: white;
+letter-spacing: 2px;
+cursor: pointer;
+}
+.enroll_main {
+    margin-left: 10%;
+}
+
+.Instructor img{
+    width:30%;
+    height:30%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+}
+.Instructor{
+    text-align: center;
+}
+.Instructor h1{
+    font-size: 30px;
+}
+.Instructor p{
+    font-size: 20px;
+}
+/*-----------------------------------------------Admin page------------------------------------*/
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="ulf-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta Name="viewport" content="width-device-device, initial-scale=1">
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#Header").load("header.html"); // loads the content of header.html in header div
+          $("#Footer").load("footer.html"); // loads the content of footer.html in footer div
+        });
+    </script>
+
+  </head>
+  
+  <body>
+    <header>
+      
+        <div id="Header"></div>
+    
+    </header>
+
+    <main>
+      <div class="registration-form">
+        <img src="reg-user-icon.png" alt="User icon">
+        <h1>Registration Form</h1>
+        <form action="registration-form.php">
+          <input type="first-name" class="input-box" placeholder="First Name">
+          <input type="last-name" class="input-box" placeholder="Last Name">
+          <input type="birth-date" class="input-box" placeholder="Date Of Birth">
+          <input type="contact-no" class="input-box" placeholder="Contact Number">
+          <input type="email" class="input-box" placeholder="Your Email">
+          <button type="button" onclick="alert('Thanks You For Register')" class="reg-btn">Register</button>
+          <hr>
+        </form>
+      </div>
+
+      <br>
+      <br>
+      
+
+    </main>
+
+
+    <footer>
+        <div id= "Footer"></div>
+       
+      
+    </footer>
+  
+    
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.headernav {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191f33;
+   
+  }
+
+ 
+
+  
+  li  {
+    text-align: right;
+    letter-spacing: 2px;
+    text-decoration: none;
+   
+  }
+  
+  
+  li a {
+    display: inline-block;
+    padding: 8px;
+    font-size: 15px;
+    
+    
+    
+  }
+  
+  .HeroBanner {
+    width: 1887px;
+    height: 500px;
+  
+  }
+  .logo {
+    width: 10%;
+    height: 10%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #191f33;
+  
+    }
+  
+.Footernav {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191f33;
+    text-decoration: none;
+    color: white;
+   
+  }
+  
+  li {
+    text-align: right;
+    letter-spacing: 2px;
+    
+  }
+  
+  li a {
+    display: inline-block;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+  }

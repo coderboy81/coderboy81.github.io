@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="ulf-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta Name="viewport" content="width-device-device, initial-scale=1">
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#Header").load("header.html"); // loads the content of header.html in header div
+          $("#Footer").load("footer.html"); // loads the content of footer.html in footer div
+        });
+    </script>
+
+  </head>
+  
+  <body onload="showAll()">
+    <header>
+      
+        <div id="Header"></div>
+    
+    </header>
+
+    <main>
+<script src="registration.js"></script>
+<div class="admincontainer">
+<h1>Adminstration System</h1><br>
+<div id="form_for_search"></div>
+    <form name="registrationDetails" method="GET" onsubmit="window.location.reload()">
+        <div id="Searchname">
+            <table>
+                <tr>
+                    
+                    <td>
+                    <label for="student_name"><b>Name</b></label>
+                    </td>
+                    <td>
+                    <input type="text" name="student_name" id="student_name"size="30"/>
+
+                    <input type="button" class="click" value="Retrieve Data" onclick="editRegistrant()">
+                    </td>
+                    <td style="width: 35%;" rowspan="13">
+
+                        <h4>Admin guide:</h4>
+						<ul style="line-height: 1.5em;">
+						<li>To create a NEW name, <ol><li>Fill in the form and</li><li>Click 'Add New name'</li></ol></li>
+						<li>To EDIT/MAKE CHANGES to an exisitng name, <ol><li>Key in  Name</li><li>Click "Retrieve Data",</li> <li>Edit the relavant fields and then</li><li>Click "Save"</li></ol></li>
+						<li>To DELETE an exisitng pet<ol><li>Key in Name</li><li>click "Retrieve Data" (This is to check the correct pet)</li><li>Click "Delete"</li></ol></li>
+						<li>To make *REMOVE ALL name<ol><li>click "Remove all records"</li></ol></li>
+						</ul>
+
+                    </td>
+                
+
+
+                </tr>
+                <tr><td><br></td></tr>
+                    <td>
+					<label for="courese"><b>Courese:</b></label>
+					</td>
+					<td>
+        			<select name="courese" id="courese">
+            		<option selected="" value="Default">- Select a courese -</option>
+           			 <option value="programmimg in java">Programmimg In Java</option>
+            		<option value="programmimg in .Net">Programmimg In .Net</option>
+        			</select>
+					</td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="email"><b>Email</b></label>
+                    </td>
+                    <td>
+                        <input for="text" name="email" id="email" size="50" required>
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="contact"><b>Contact Inform</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="contact" id="contact" size="50" required><br>
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="message"><b>message</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="message" id="message"size="50">
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr id="buttonGroups">
+                    <td></td>
+                    <td style="display: flex;">
+                        <input type="button" style="margin-right:10px; width: 130px;" class="click" value="Add New Name" onclick="addRegistrant();">
+						<input type="button" style="margin-right:10px; width:130px;" class="click" value="Save" onclick="addRegistrant()">
+						<input type="button" style="width: 130px;" class="click" value="Delete " onclick="deleteRegistrant()">
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>	
+					<tr>
+						<td></td>
+					<td>
+						<input type="button" class="click" style="margin-right:10px;" value="*Remove all records" onclick="clearAll()"><br><i> *Warning! This button removes all records!!!</i></td>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+			</table>
+		</div>
+		<!-- personal information -->
+		<div id="items_table">	
+			<h1>Personal Details</Details></h1><br>
+
+			<table id=list class="table table-bordered"></table><br><br><br>
+        </div>
+    
+    </form>
+
+</div>
+      
+
+    </main>
+
+
+    <footer>
+        <div id= "Footer"></div>
+       
+      
+    </footer>
+  
+    
+</div></body>
+</html>

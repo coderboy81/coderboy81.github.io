@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="ulf-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta Name="viewport" content="width-device-device, initial-scale=1">
+    <title>Registration</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#Header").load("header.html"); // loads the content of header.html in header div
+          $("#Footer").load("footer.html"); // loads the content of footer.html in footer div
+        });
+    </script>
+
+  </head>
+  
+  
+    <header>
+      
+        <div id="Header"></div>
+    
+    </header>
+
+    <main>
+   
+      <div class="regbreadcrumb">
+        <p><a href=index.html>Home</a> / <a href="Abcregistration.html">Registration</a></p>
+      </div>
+<div class="regcontainer">
+    <script src="registration.js"></script>
+    
+    <h1>Registration</h1>
+    <br>
+    <form name='registrationDetails' onSubmit="return formValidate()" method="GET" action="thanksyou.html">
+
+      <label for="studentname">Name:</label><br>
+      <input type="text" name="studentname" id="studentname" size="42" placeholder="Enter your name please"/>
+      <br><br>
+
+      <label for="courese">Courses</label><br>
+      <select name="courese" id="courese">
+          <option selected="" value="Default">Select a courses</option>
+          <option value="programmimg in java">Programming In Java</option>
+          <option value="programmimg in .Net">Programming In .Net</option>
+      </select>
+      <br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="text" name="email" id="email" size="42" placeholder="Enter your email address"required/>
+      <br><br>
+
+      <label for="contact">Personal Contact:</label><br>
+      <input type="tel" name="contact" id="contact" size="42" required/>
+      <br><br>
+      <label for="message">Your Comment:</label><br>
+      <textarea name="message" id="message" rows="5" cols="45" placeholder="Enter your comment here" required></textarea>
+      <br><br>
+      <input type="submit" name="Submit" value="Submit"/>
+      
+        
+    </form>
+  
+</div>
+
+
+    </main>
+
+
+    <footer>
+        <div id= "Footer"></div>
+       
+      
+    </footer>
+  
+    
+  
+</html>

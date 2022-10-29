@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="ulf-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta Name="viewport" content="width-device-device, initial-scale=1">
+    <title>Courese Listed</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#Header").load("header.html"); // loads the content of header.html in header div
+          $("#Footer").load("footer.html"); // loads the content of footer.html in footer div
+        });
+    </script>
+    <script>
+        $( function() {
+          $( "#accordion" ).accordion({
+            collapsible: true
+          });
+        } );
+        </script>
+  </head>
+  
+  <body>
+    <header>
+      
+        <div id="Header"></div>
+    
+    </header>
+
+    <main>
+       
+        <div class="Ava_courese">
+            <img src="bg-registration-form.jpg" alt= bg-registration-form>
+            <h1>Available Courses</h1>
+        </div>
+        <div class="acc_container" >
+        <div id="accordion">
+            <h3>Programming In Java</h3>
+            <div class="accordionpara">
+              <p><img src="JavaPic.png" alt="javapic">Java is one of the most popular programming languages out there. 
+                    Released in 1995 and still widely used today, Java has many applications, including software development, mobile applications, and large systems development. Knowing Java opens a lot of possibilities for you as a developer.</p>
+            <br>  
+                <li>
+                    Java is easy to learn
+                </li>
+            <br>
+                <li>
+                    Java is object-oriented 
+                </li>
+            <br>
+                <li>
+                    Java is platform-independent
+                </li>
+            <br>
+                <a class="enroll_main" href="Abcregistration.html"><strong>Enroll</strong></a>
+            </div>
+            <h3>Programming In .NET</h3>
+            <div class="accordionpara">
+              <p><img src="NET.png" alt="javapic">.NET is a free, cross-platform, open source developer platform for building many different types of applications.
+                    .NET can be used to build a wide variety of applications, including desktop apps, mobile apps, games, web apps, and IoT devices. Because it’s open-source, 
+                    .NET can also take advantage of numerous libraries, languages, and editors.
+                <li>
+                    Object-oriented software development model
+                </li>
+            <br>
+                <li>
+                    Reliable and simple caching system
+                </li>
+            <br>
+                <li>
+                    Cross-platform design of .NET Core
+                </li>
+            <br>
+                <a class="enroll_main" href="Abcregistration.html"><strong>Enroll</strong></a>
+            <br>
+        </div>
+        <div class="Instructor">
+        <h1>Our Instructor</h1>
+
+            <img src="Sakonji-Urokodaki.jpeg" alt="Instructor">
+            <h2>Head of Programming</h2>
+            <p>10yrs Industry experience</p>
+            <p>These front- and back-end development veterans bring in-depth experience from the field to the classroom each day, providing invaluable insights into succeeding on the job. 
+                ABC Learning Center instructors are committed to providing personalised feedback and support to help you gain confidence with key concepts and tools to learn programming languages. </p>
+        
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id= "Footer"></div>
+       
+      
+    </footer>
+  
+    
+  </body>
+</html>
